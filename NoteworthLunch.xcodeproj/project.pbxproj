@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D75CF291F0FC994001BA5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF281F0FC994001BA5FF /* AppDelegate.swift */; };
+		3D75CF2B1F0FC994001BA5FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF2A1F0FC994001BA5FF /* SearchViewController.swift */; };
+		3D75CF2E1F0FC994001BA5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D75CF2C1F0FC994001BA5FF /* Main.storyboard */; };
+		3D75CF301F0FC994001BA5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D75CF2F1F0FC994001BA5FF /* Assets.xcassets */; };
+		3D75CF331F0FC994001BA5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D75CF311F0FC994001BA5FF /* LaunchScreen.storyboard */; };
+		3D75CF3F1F1003CE001BA5FF /* NLRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF3E1F1003CE001BA5FF /* NLRestaurant.swift */; };
+		3D75CF411F100580001BA5FF /* NLRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF401F100580001BA5FF /* NLRestaurantViewModel.swift */; };
+		3D75CF431F100613001BA5FF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF421F100613001BA5FF /* DetailsViewController.swift */; };
+		3D75CF451F100637001BA5FF /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF441F100637001BA5FF /* GraphsViewController.swift */; };
+		3D75CF471F100771001BA5FF /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF461F100771001BA5FF /* RequestManager.swift */; };
+		3D75CF491F100A5D001BA5FF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF481F100A5D001BA5FF /* Constants.swift */; };
+		3D75CF4B1F1515E3001BA5FF /* NLRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75CF4A1F1515E3001BA5FF /* NLRestaurantCell.swift */; };
+		6A9AA23D86159685613BBC81 /* Pods_NoteworthLunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E545E2F98C824568E9DC915 /* Pods_NoteworthLunch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D75CF251F0FC994001BA5FF /* NoteworthLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteworthLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D75CF281F0FC994001BA5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D75CF2A1F0FC994001BA5FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3D75CF2D1F0FC994001BA5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D75CF2F1F0FC994001BA5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D75CF321F0FC994001BA5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D75CF341F0FC994001BA5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D75CF3E1F1003CE001BA5FF /* NLRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLRestaurant.swift; sourceTree = "<group>"; };
+		3D75CF401F100580001BA5FF /* NLRestaurantViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLRestaurantViewModel.swift; sourceTree = "<group>"; };
+		3D75CF421F100613001BA5FF /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3D75CF441F100637001BA5FF /* GraphsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
+		3D75CF461F100771001BA5FF /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		3D75CF481F100A5D001BA5FF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3D75CF4A1F1515E3001BA5FF /* NLRestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLRestaurantCell.swift; sourceTree = "<group>"; };
+		6382417135D4C12DDBD3BFD2 /* Pods-NoteworthLunch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteworthLunch.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoteworthLunch/Pods-NoteworthLunch.release.xcconfig"; sourceTree = "<group>"; };
+		7102431B1F8974E24B92CF2D /* Pods-NoteworthLunch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteworthLunch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoteworthLunch/Pods-NoteworthLunch.debug.xcconfig"; sourceTree = "<group>"; };
+		8E545E2F98C824568E9DC915 /* Pods_NoteworthLunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteworthLunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D75CF221F0FC994001BA5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9AA23D86159685613BBC81 /* Pods_NoteworthLunch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D75CF1C1F0FC994001BA5FF = {
+			isa = PBXGroup;
+			children = (
+				3D75CF271F0FC994001BA5FF /* NoteworthLunch */,
+				3D75CF261F0FC994001BA5FF /* Products */,
+				942A31812A9460F9412F4312 /* Pods */,
+				89794069BE91C5F5D86D1C4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D75CF261F0FC994001BA5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF251F0FC994001BA5FF /* NoteworthLunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D75CF271F0FC994001BA5FF /* NoteworthLunch */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF281F0FC994001BA5FF /* AppDelegate.swift */,
+				3D75CF481F100A5D001BA5FF /* Constants.swift */,
+				3D75CF3A1F0FCC78001BA5FF /* Model */,
+				3D75CF3C1F0FCC8E001BA5FF /* View */,
+				3D75CF3B1F0FCC86001BA5FF /* ViewModel */,
+				3D75CF3D1F0FCCA2001BA5FF /* Controller */,
+				3D75CF2F1F0FC994001BA5FF /* Assets.xcassets */,
+				3D75CF341F0FC994001BA5FF /* Info.plist */,
+			);
+			path = NoteworthLunch;
+			sourceTree = "<group>";
+		};
+		3D75CF3A1F0FCC78001BA5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF3E1F1003CE001BA5FF /* NLRestaurant.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D75CF3B1F0FCC86001BA5FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF401F100580001BA5FF /* NLRestaurantViewModel.swift */,
+				3D75CF461F100771001BA5FF /* RequestManager.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3D75CF3C1F0FCC8E001BA5FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF311F0FC994001BA5FF /* LaunchScreen.storyboard */,
+				3D75CF2C1F0FC994001BA5FF /* Main.storyboard */,
+				3D75CF4A1F1515E3001BA5FF /* NLRestaurantCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3D75CF3D1F0FCCA2001BA5FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D75CF2A1F0FC994001BA5FF /* SearchViewController.swift */,
+				3D75CF421F100613001BA5FF /* DetailsViewController.swift */,
+				3D75CF441F100637001BA5FF /* GraphsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		89794069BE91C5F5D86D1C4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E545E2F98C824568E9DC915 /* Pods_NoteworthLunch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		942A31812A9460F9412F4312 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7102431B1F8974E24B92CF2D /* Pods-NoteworthLunch.debug.xcconfig */,
+				6382417135D4C12DDBD3BFD2 /* Pods-NoteworthLunch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D75CF241F0FC994001BA5FF /* NoteworthLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D75CF371F0FC994001BA5FF /* Build configuration list for PBXNativeTarget "NoteworthLunch" */;
+			buildPhases = (
+				6A439D436209D5E472E00D62 /* [CP] Check Pods Manifest.lock */,
+				3D75CF211F0FC994001BA5FF /* Sources */,
+				3D75CF221F0FC994001BA5FF /* Frameworks */,
+				3D75CF231F0FC994001BA5FF /* Resources */,
+				5231EF6685F3150B7E65E170 /* [CP] Embed Pods Frameworks */,
+				3E8DBF0186A17E4C166024C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteworthLunch;
+			productName = NoteworthLunch;
+			productReference = 3D75CF251F0FC994001BA5FF /* NoteworthLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D75CF1D1F0FC994001BA5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jt;
+				TargetAttributes = {
+					3D75CF241F0FC994001BA5FF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q78JZ9X2RG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D75CF201F0FC994001BA5FF /* Build configuration list for PBXProject "NoteworthLunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D75CF1C1F0FC994001BA5FF;
+			productRefGroup = 3D75CF261F0FC994001BA5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D75CF241F0FC994001BA5FF /* NoteworthLunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D75CF231F0FC994001BA5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D75CF331F0FC994001BA5FF /* LaunchScreen.storyboard in Resources */,
+				3D75CF301F0FC994001BA5FF /* Assets.xcassets in Resources */,
+				3D75CF2E1F0FC994001BA5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E8DBF0186A17E4C166024C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoteworthLunch/Pods-NoteworthLunch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5231EF6685F3150B7E65E170 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoteworthLunch/Pods-NoteworthLunch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A439D436209D5E472E00D62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D75CF211F0FC994001BA5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D75CF3F1F1003CE001BA5FF /* NLRestaurant.swift in Sources */,
+				3D75CF4B1F1515E3001BA5FF /* NLRestaurantCell.swift in Sources */,
+				3D75CF451F100637001BA5FF /* GraphsViewController.swift in Sources */,
+				3D75CF411F100580001BA5FF /* NLRestaurantViewModel.swift in Sources */,
+				3D75CF2B1F0FC994001BA5FF /* SearchViewController.swift in Sources */,
+				3D75CF471F100771001BA5FF /* RequestManager.swift in Sources */,
+				3D75CF291F0FC994001BA5FF /* AppDelegate.swift in Sources */,
+				3D75CF431F100613001BA5FF /* DetailsViewController.swift in Sources */,
+				3D75CF491F100A5D001BA5FF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D75CF2C1F0FC994001BA5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D75CF2D1F0FC994001BA5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D75CF311F0FC994001BA5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D75CF321F0FC994001BA5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D75CF351F0FC994001BA5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D75CF361F0FC994001BA5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D75CF381F0FC994001BA5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7102431B1F8974E24B92CF2D /* Pods-NoteworthLunch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q78JZ9X2RG;
+				INFOPLIST_FILE = NoteworthLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jt.NoteworthLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D75CF391F0FC994001BA5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6382417135D4C12DDBD3BFD2 /* Pods-NoteworthLunch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q78JZ9X2RG;
+				INFOPLIST_FILE = NoteworthLunch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jt.NoteworthLunch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D75CF201F0FC994001BA5FF /* Build configuration list for PBXProject "NoteworthLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D75CF351F0FC994001BA5FF /* Debug */,
+				3D75CF361F0FC994001BA5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D75CF371F0FC994001BA5FF /* Build configuration list for PBXNativeTarget "NoteworthLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D75CF381F0FC994001BA5FF /* Debug */,
+				3D75CF391F0FC994001BA5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D75CF1D1F0FC994001BA5FF /* Project object */;
+}

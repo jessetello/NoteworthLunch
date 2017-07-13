@@ -1,0 +1,6 @@
+framework module Pods_NoteworthLunch {
+  umbrella header "Pods-NoteworthLunch-umbrella.h"
+
+  export *
+  module * { export * }
+}
